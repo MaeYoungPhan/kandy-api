@@ -1,0 +1,296 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Hillie Phillpotts",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator",
+      "email": "fslator8@51.la",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe",
+      "email": "rerbe9@psu.edu",
+      "isStaff": true
+    },
+    {
+      "email": "jeremy@bakker.com",
+      "fullName": "Jeremy Bakker",
+      "isStaff": true,
+      "id": 7
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNumber": 10001,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "loyaltyNumber": 10002,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "loyaltyNumber": 10003,
+      "userId": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "11/02/2022",
+      "rate": 72.47,
+      "userId": 4,
+      "locationId": 3
+    },
+    {
+      "id": 2,
+      "startDate": "04/03/1982",
+      "rate": 97.39,
+      "userId": 5,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "startDate": "01/26/2012",
+      "rate": 29.45,
+      "userId": 6,
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "nickName": "Main",
+      "address": "2802 Zula Locks",
+      "sqFt": 600
+    },
+    {
+      "id": 2,
+      "nickName": "Opryland",
+      "address": "56849 Fadel Gateway",
+      "sqFt": 400
+    },
+    {
+      "id": 1,
+      "nickName": "Vicksburg",
+      "address": "7346 Ritchie Road",
+      "sqFt": 2000
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "suckers"
+    },
+    {
+      "id": 2,
+      "category": "gum"
+    },
+    {
+      "id": 3,
+      "category": "hard candy"
+    },
+    {
+      "id": 4,
+      "category": "not candy"
+    },
+    {
+      "id": 5,
+      "category": "chewy candy"
+    },
+    {
+      "id": 6,
+      "category": "chocolate"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "rock candy",
+      "productTypeId": 3,
+      "price": 1,
+      "img": "https://i5.walmartimages.com/asr/152bc4b8-4c87-48fa-b97a-c448b07b9a86_1.adc3b4cf3b70d9aab9df279ab9eafe78.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "taffy",
+      "productTypeId": 5,
+      "price": 0.25,
+      "img": "https://media.candynation.com/catalog/product/cache/37b377f2a2dfea30b42072b55c737119/s/w/sweets_assorted_taffy.jpg"
+    },
+    {
+      "id": 3,
+      "name": "giant gum balls",
+      "productTypeId": 2,
+      "price": 0.5,
+      "img": "https://www.candywarehouse.com/item-images/126825-01_dubble-bubble-mega-fruit-gumballs-138-piece-case.jpg"
+    },
+    {
+      "id": 4,
+      "name": "plushies",
+      "productTypeId": 4,
+      "price": 16,
+      "img": "https://ae01.alicdn.com/kf/Hc81c71f9b9be4fe1a0c4112070002452j/Ty-Beanie-Boos-Big-Eyes-Heather-Cat-Dog-Ladybug-Octopus-Plush-Stuffed-Animals-Toy-Collection-Decoration.jpg_Q90.jpg"
+    },
+    {
+      "id": 5,
+      "name": "ring pops",
+      "productTypeId": 1,
+      "price": 1,
+      "img": "https://i5.walmartimages.com/asr/3a24f7d0-4b23-4bee-80f2-629e45591eb1.d0ba137d1e095234614a6c42edec24a0.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "enormous chocolate bar",
+      "productTypeId": 6,
+      "price": 20,
+      "img": "https://jcandy-weblinc.netdna-ssl.com/product_images/h3400036300-hersheys-5-pound-chocolate-bar/57e23169617070777f009787/detail.jpg?c=1474994274"
+    },
+    {
+      "id": 7,
+      "name": "truffles",
+      "productTypeId": 6,
+      "price": 2,
+      "img": "https://www.modernhoney.com/wp-content/uploads/2022/02/Chocolate-Truffles-2-scaled.jpg"
+    },
+    {
+      "id": 8,
+      "name": "jawbreaker",
+      "productTypeId": 3,
+      "price": 5,
+      "img": "https://images.vat19.com/covers/large/mega-bruiser-jaw-breaker.jpg"
+    },
+    {
+      "id": 9,
+      "name": "glitter gum",
+      "productTypeId": 2,
+      "price": 1,
+      "img": "https://s7.orientaltrading.com/is/image/OrientalTrading/VIEWER_ZOOM/large-shimmer-pink-gumballs-97-pc-~k2179"
+    },
+    {
+      "name": "Candy Apples",
+      "productTypeId": "4",
+      "price": "5",
+      "img": "https://jamiegeller.com/.image/t_share/MTY1NTI0OTcyOTgyNTc2MTU1/bigstock-isolated-toffee-apple-8223264jpg.jpg",
+      "id": 10
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "locationId": 3
+    },
+    {
+      "id": 7,
+      "productId": 7,
+      "locationId": 1
+    },
+    {
+      "id": 8,
+      "productId": 8,
+      "locationId": 2
+    },
+    {
+      "id": 9,
+      "productId": 9,
+      "locationId": 3
+    },
+    {
+      "id": 10,
+      "productId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 11,
+      "productId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 12,
+      "productId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 13,
+      "productId": 4,
+      "locationId": 3
+    },
+    {
+      "id": 14,
+      "productId": 5,
+      "locationId": 1
+    }
+  ],
+  "Purchases": [
+    {
+      "id": 1,
+      "userId": 3,
+      "productId": 4,
+      "quantity": 5
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 6,
+      "quantity": 10
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 30
+    }
+  ]
+}
