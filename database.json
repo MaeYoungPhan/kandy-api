@@ -41,6 +41,42 @@
       "fullName": "Jeremy Bakker",
       "isStaff": true,
       "id": 7
+    },
+    {
+      "email": "bucky@burgers.com",
+      "fullName": "Bucky Burger",
+      "isStaff": false,
+      "id": 8
+    },
+    {
+      "email": "fastcars@sugarrush.com",
+      "fullName": "Vanellope VonSchweet",
+      "isStaff": true,
+      "id": 9
+    },
+    {
+      "email": "mary@marymac.com",
+      "fullName": "Mary Mac",
+      "isStaff": false,
+      "id": 10
+    },
+    {
+      "email": "chitty@chatty.com",
+      "fullName": "Truly Scrumptious",
+      "isStaff": true,
+      "id": 11
+    },
+    {
+      "email": "crybaby@sugarrush.com",
+      "fullName": "Taffita Toffee",
+      "isStaff": true,
+      "id": 12
+    },
+    {
+      "email": "candy@yourmom.com",
+      "fullName": "Candy Tart",
+      "isStaff": true,
+      "id": 13
     }
   ],
   "customers": [
@@ -81,6 +117,34 @@
       "rate": 29.45,
       "userId": 6,
       "locationId": 2
+    },
+    {
+      "userId": 11,
+      "locationId": 1,
+      "startDate": "11/13/2022",
+      "rate": "40.05",
+      "id": 4
+    },
+    {
+      "userId": 9,
+      "locationId": 2,
+      "startDate": "11/01/2022",
+      "rate": "62.04",
+      "id": 5
+    },
+    {
+      "userId": 12,
+      "locationId": 1,
+      "startDate": "11/12/2022",
+      "rate": "53.35",
+      "id": 6
+    },
+    {
+      "userId": 13,
+      "locationId": 2,
+      "startDate": "11/15/2022",
+      "rate": "63.25",
+      "id": 7
     }
   ],
   "locations": [
@@ -97,7 +161,7 @@
       "sqFt": 400
     },
     {
-      "id": 1,
+      "id": 3,
       "nickName": "Vicksburg",
       "address": "7346 Ritchie Road",
       "sqFt": 2000
@@ -106,92 +170,92 @@
   "productTypes": [
     {
       "id": 1,
-      "category": "suckers"
+      "category": "Suckers"
     },
     {
       "id": 2,
-      "category": "gum"
+      "category": "Gum"
     },
     {
       "id": 3,
-      "category": "hard candy"
+      "category": "Hard Candy"
     },
     {
       "id": 4,
-      "category": "not candy"
+      "category": "Not Candy"
     },
     {
       "id": 5,
-      "category": "chewy candy"
+      "category": "Chewy Candy"
     },
     {
       "id": 6,
-      "category": "chocolate"
+      "category": "Chocolate"
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "rock candy",
+      "name": "Rock Candy",
       "productTypeId": 3,
       "price": 1,
       "img": "https://i5.walmartimages.com/asr/152bc4b8-4c87-48fa-b97a-c448b07b9a86_1.adc3b4cf3b70d9aab9df279ab9eafe78.jpeg"
     },
     {
       "id": 2,
-      "name": "taffy",
+      "name": "Taffy",
       "productTypeId": 5,
-      "price": 0.25,
-      "img": "https://media.candynation.com/catalog/product/cache/37b377f2a2dfea30b42072b55c737119/s/w/sweets_assorted_taffy.jpg"
+      "price": 10,
+      "img": "https://cdn.shopify.com/s/files/1/1577/8257/products/ck_taffy_box-2253_1_1_300x300_crop_center.jpg?v=1478031065"
     },
     {
       "id": 3,
-      "name": "giant gum balls",
+      "name": "Giant Gum Balls",
       "productTypeId": 2,
       "price": 0.5,
       "img": "https://www.candywarehouse.com/item-images/126825-01_dubble-bubble-mega-fruit-gumballs-138-piece-case.jpg"
     },
     {
       "id": 4,
-      "name": "plushies",
+      "name": "Plushies",
       "productTypeId": 4,
       "price": 16,
       "img": "https://ae01.alicdn.com/kf/Hc81c71f9b9be4fe1a0c4112070002452j/Ty-Beanie-Boos-Big-Eyes-Heather-Cat-Dog-Ladybug-Octopus-Plush-Stuffed-Animals-Toy-Collection-Decoration.jpg_Q90.jpg"
     },
     {
       "id": 5,
-      "name": "ring pops",
+      "name": "Ring pops",
       "productTypeId": 1,
       "price": 1,
       "img": "https://i5.walmartimages.com/asr/3a24f7d0-4b23-4bee-80f2-629e45591eb1.d0ba137d1e095234614a6c42edec24a0.jpeg"
     },
     {
       "id": 6,
-      "name": "enormous chocolate bar",
+      "name": "Fudge",
       "productTypeId": 6,
-      "price": 20,
-      "img": "https://jcandy-weblinc.netdna-ssl.com/product_images/h3400036300-hersheys-5-pound-chocolate-bar/57e23169617070777f009787/detail.jpg?c=1474994274"
+      "price": 12,
+      "img": "https://cdn.shopify.com/s/files/1/1577/8257/products/ck_fudge_group-2373b_new_300x300_crop_center.jpg?v=1478033234"
     },
     {
       "id": 7,
-      "name": "truffles",
+      "name": "Chocolate Tortoise",
       "productTypeId": 6,
       "price": 2,
-      "img": "https://www.modernhoney.com/wp-content/uploads/2022/02/Chocolate-Truffles-2-scaled.jpg"
+      "img": "https://cdn.shopify.com/s/files/1/1577/8257/products/ck_pecan_patties_dark-3448_1_300x300_crop_center.jpg?v=1478030158"
     },
     {
       "id": 8,
-      "name": "jawbreaker",
+      "name": "Jawbreaker",
       "productTypeId": 3,
       "price": 5,
       "img": "https://images.vat19.com/covers/large/mega-bruiser-jaw-breaker.jpg"
     },
     {
       "id": 9,
-      "name": "glitter gum",
-      "productTypeId": 2,
-      "price": 1,
-      "img": "https://s7.orientaltrading.com/is/image/OrientalTrading/VIEWER_ZOOM/large-shimmer-pink-gumballs-97-pc-~k2179"
+      "name": "Chocolate Covered M&M Pretzel",
+      "productTypeId": 4,
+      "price": 3,
+      "img": "https://cdn.shopify.com/s/files/1/1577/8257/products/ck_7_13_m_m_pretzel_2_grande.jpg?v=1478031708"
     },
     {
       "name": "Candy Apples",
@@ -199,6 +263,13 @@
       "price": "5",
       "img": "https://jamiegeller.com/.image/t_share/MTY1NTI0OTcyOTgyNTc2MTU1/bigstock-isolated-toffee-apple-8223264jpg.jpg",
       "id": 10
+    },
+    {
+      "id": 11,
+      "name": "Assorted Swedish Fish",
+      "productTypeId": "5",
+      "price": ".25",
+      "img": "https://cdn.shopify.com/s/files/1/1577/8257/products/ck_assorted_swedish_fish-2508_300x300_crop_center.jpg?v=1478030704"
     }
   ],
   "productLocations": [
