@@ -37,12 +37,6 @@
       "isStaff": true
     },
     {
-      "email": "jeremy@bakker.com",
-      "fullName": "Jeremy Bakker",
-      "isStaff": true,
-      "id": 7
-    },
-    {
       "email": "bucky@burgers.com",
       "fullName": "Bucky Burger",
       "isStaff": false,
@@ -73,8 +67,8 @@
       "id": 12
     },
     {
-      "email": "candy@yourmom.com",
-      "fullName": "Candy Tart",
+      "email": "notTurbo@sugarrush.com",
+      "fullName": "King Kandy",
       "isStaff": true,
       "id": 13
     }
@@ -92,7 +86,7 @@
     },
     {
       "id": 3,
-      "loyaltyNumber": 10003,
+      "loyaltyNumber": 10005,
       "userId": 3
     }
   ],
@@ -142,8 +136,8 @@
     {
       "userId": 13,
       "locationId": 2,
-      "startDate": "11/15/2022",
-      "rate": "63.25",
+      "startDate": "11/25/2022",
+      "rate": "100.00",
       "id": 7
     }
   ],
@@ -362,6 +356,30 @@
       "userId": 1,
       "productId": 1,
       "quantity": 30
+    },
+    {
+      "userId": 3,
+      "productId": 5,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "productId": 3,
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "productId": 2,
+      "quantity": 1,
+      "id": 7
     }
   ]
 }
